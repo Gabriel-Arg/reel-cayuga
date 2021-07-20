@@ -1,0 +1,12 @@
+@media screen and (min-width:650px) {
+
+
+    .banner-fluid .banner-container .banner-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .banner-fluid .banner-container .banner-row .banner-row_frase {
+        display: flex;
+    }
+}

@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
-h1, h2 {
+h1 {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 h3, h4, h5, h6 {
@@ -15,7 +22,8 @@ h3, h4, h5, h6 {
 
 p {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 a {
@@ -23,6 +31,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   color: #525252;
+  font-size: 16px;
 }
 
 body {
@@ -30,18 +39,15 @@ body {
 }
 
 .banner-fluid {
-  border: 1px dashed black;
-  border-bottom: 4px solid #12254e;
   background-color: #F9F9F9;
   height: 100px;
 }
 .banner-fluid .banner-container {
-  border: 1px dashed gray;
   height: 100%;
   padding: 0;
 }
 .banner-fluid .banner-container .banner-row {
-  border: 1px dashed blue;
+  border-bottom: 4px solid #12254e;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -51,13 +57,27 @@ body {
   align-items: center;
 }
 .banner-fluid .banner-container .banner-row figure {
-  border: 1px solid red;
   width: 200px;
   padding: 0;
   margin: 0;
 }
 .banner-fluid .banner-container .banner-row figure img {
   width: 100%;
+}
+.banner-fluid .banner-container .banner-row .banner-row_frase {
+  width: auto;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-fluid .banner-container .banner-row .banner-row_frase .banner-row_frase_1 {
+  margin: 0;
+  font-size: 1rem;
+}
+.banner-fluid .banner-container .banner-row .banner-row_frase .banner-row_frase_2 {
+  margin: 0;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=mobile-vertical.css.map */

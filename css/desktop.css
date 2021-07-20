@@ -1,0 +1,12 @@
+@media screen and (min-width: 990px) {
+
+    .banner-fluid .banner-container .banner-row .banner-row_frase {
+        width: 80%;
+    }
+    .banner-fluid .banner-container .banner-row .banner-row_frase .banner-row_frase_1 {
+        font-size: 1.5rem;
+    }
+    .banner-fluid .banner-container .banner-row .banner-row_frase .banner-row_frase_2 {
+        font-size: 1.9rem;
+    }
+}
