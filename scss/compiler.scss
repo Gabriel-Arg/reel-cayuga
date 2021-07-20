@@ -1,0 +1,28 @@
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: $fuente-titulos;
+    font-weight: bold;
+}
+
+h3, h4, h5, h6 {
+    font-family: $fuente-subtitulos;
+}
+
+p {
+    font-family: $fuente-parrafo;
+    font-weight: 500;
+}
+
+a {
+    font-family: $fuente-subtitulos;
+    font-weight: 600;
+    text-decoration: none;
+    color: $color-gris-oscuro;
+}
