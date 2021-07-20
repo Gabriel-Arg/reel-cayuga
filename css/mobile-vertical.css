@@ -105,6 +105,7 @@ body {
 }
 .footer-fluid .footer-container .footer-row .footer-row_info {
   border: 1px dashed red;
+  padding: 0;
   color: #F9F9F9;
   display: flex;
   flex-direction: column;
@@ -123,6 +124,12 @@ body {
 }
 .footer-fluid .footer-container .footer-row .footer-row_info figure img {
   width: 50px;
+  cursor: pointer;
+}
+.footer-fluid .footer-container .footer-row .footer-row_info .footer_link {
+  color: #F9F9F9;
+  font-weight: 400;
+  font-size: 0.8rem;
 }
 .footer-fluid .footer-container .footer-row .footer-row_minta {
   border: 1px dashed red;

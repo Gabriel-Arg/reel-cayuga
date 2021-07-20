@@ -128,6 +128,7 @@ body {
 
             .footer-row_info {
                 border: 1px dashed red;
+                padding: 0;
                 color: $color-blanco;
 
                 display: flex;
@@ -148,7 +149,14 @@ body {
 
                     img {
                         width: 50px;
+                        cursor: pointer;
                     }
+                }
+
+                .footer_link {
+                    color: $color-blanco;
+                    font-weight: 400;
+                    font-size: 0.8rem;
                 }
             }
 
