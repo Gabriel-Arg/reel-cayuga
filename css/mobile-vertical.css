@@ -25,4 +25,39 @@ a {
   color: #525252;
 }
 
+body {
+  background-color: #F9F9F9;
+}
+
+.banner-fluid {
+  border: 1px dashed black;
+  border-bottom: 4px solid #12254e;
+  background-color: #F9F9F9;
+  height: 100px;
+}
+.banner-fluid .banner-container {
+  border: 1px dashed gray;
+  height: 100%;
+  padding: 0;
+}
+.banner-fluid .banner-container .banner-row {
+  border: 1px dashed blue;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-fluid .banner-container .banner-row figure {
+  border: 1px solid red;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+.banner-fluid .banner-container .banner-row figure img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=mobile-vertical.css.map */
