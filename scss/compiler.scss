@@ -98,6 +98,30 @@ body {
 }
 
 // -----------------------------------------------------
+//        EN CONSTRUCCIÓN
+// -----------------------------------------------------
+.constr-fluid {
+    .constr-container {
+        .constr-row {
+            padding: 50px 0px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                text-align: center;
+                font-weight: bold;
+                color: $color-gris-oscuro;
+            }
+
+
+        }
+    }
+}
+
+// -----------------------------------------------------
 //        FOOTER
 // -----------------------------------------------------
 .footer-fluid {
