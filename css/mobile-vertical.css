@@ -92,6 +92,7 @@ body {
 }
 .btn-contacto a img {
   width: 100%;
+  filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.487));
 }
 
 .constr-fluid .constr-container .constr-row {
