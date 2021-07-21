@@ -80,6 +80,20 @@ body {
   font-size: 1.3rem;
 }
 
+.btn-contacto {
+  padding: 0px;
+  width: 55px;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+}
+.btn-contacto a {
+  width: 100%;
+}
+.btn-contacto a img {
+  width: 100%;
+}
+
 .constr-fluid .constr-container .constr-row {
   padding: 50px 0px;
   display: flex;
