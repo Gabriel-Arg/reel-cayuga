@@ -1,5 +1,8 @@
 @media screen and (min-width: 990px) {
 
+    /* ----------------------------------------------------- */
+    /*        BANNER INICIAL SUPERIOR */
+    /* ----------------------------------------------------- */
     .banner-fluid .banner-container .banner-row .banner-row_frase {
         width: 80%;
     }
@@ -9,4 +12,47 @@
     .banner-fluid .banner-container .banner-row .banner-row_frase .banner-row_frase_2 {
         font-size: 1.9rem;
     }
+
+    /* ----------------------------------------------------- */
+    /* ----FOOTER */
+    /* ----------------------------------------------------- */
+    .footer-fluid .footer-container .footer-row figure {
+        width: 180px;
+    }
+    .footer-fluid {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-fluid .footer-container {
+        height: 80%;
+        padding: 0;
+    }
+    .footer-fluid .footer-container .footer-row {
+        flex-direction: row;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .footer-fluid .footer-container .footer-row .footer-row_info {
+        width: auto;
+        
+        height: 100%;
+        padding: 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer-fluid .footer-container .footer-row .footer-row_info h4 {
+        font-size: 1.1rem;
+    }
+    .footer-fluid .footer-container .footer-row .footer-row_info figure {
+        justify-content: flex-start;
+    }
+    .footer-fluid .footer-container .footer-row .footer-row_info figure img {
+        margin-right: 20px;
+    }
+
+
+
 }

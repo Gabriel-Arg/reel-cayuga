@@ -1,6 +1,8 @@
 @media screen and (min-width:650px) {
 
-
+    /* ----------------------------------------------------- */
+    /* ----BANNER INICIAL SUPERIOR */
+    /* ----------------------------------------------------- */
     .banner-fluid .banner-container .banner-row {
         flex-direction: row;
         justify-content: space-between;
@@ -9,4 +11,18 @@
     .banner-fluid .banner-container .banner-row .banner-row_frase {
         display: flex;
     }
+
+    /* ----------------------------------------------------- */
+    /* ----FOOTER */
+    /* ----------------------------------------------------- */
+    .footer-fluid {
+        height: auto;
+    }
+    .footer-fluid .footer-container {
+        padding: 50px 0px;
+    }
+    .footer-fluid .footer-container .footer-row .footer-row_info {
+        margin: 20px;
+    }
+
 }

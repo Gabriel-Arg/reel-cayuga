@@ -105,11 +105,11 @@ body {
     background-color: $color-azul;
 
     .footer-container {
-        border: 1px dashed gray;
+        // border: 1px dashed gray;
         height: 100%;
 
         .footer-row {
-            border: 1px dashed cyan;
+            // border: 1px dashed cyan;
             height: 100%;
 
             display: flex;
@@ -118,7 +118,7 @@ body {
             align-items: center;
 
             figure {
-                border: 1px dashed red;
+                // border: 1px dashed red;
                 width: 250px;
 
                 img {
@@ -127,7 +127,7 @@ body {
             }
 
             .footer-row_info {
-                border: 1px dashed red;
+                // border: 1px dashed red;
                 width: 100%;
                 padding: 0;
                 color: $color-blanco;
@@ -169,8 +169,10 @@ body {
             }
 
             .footer-row_minta {
-                border: 1px dashed red;
+                // border: 1px dashed red;
                 width: 100px;
+                padding: 0;
+                margin: 20px 0 5px;
 
                 img {
                     width: 100%;
