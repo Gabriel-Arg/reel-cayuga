@@ -195,6 +195,7 @@ body {
 
 .amedida-fluid-2 {
     // border: 1px dashed black;
+    margin-top: 20px;
 
     .amedida-container-2 {
         // border: 1px dashed gray;
@@ -216,6 +217,33 @@ body {
     }
 }
 
+// -----------------------------------------------------
+//        MODELOS DE REELS
+// -----------------------------------------------------
+.reeles-fluid {
+    border: 1px dashed black;
+    margin-top: 50px;
+
+    .reeles-container {
+        // border: 1px dashed gray;
+
+        .reeles-row {
+            border: 1px dashed blue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .reeles-row_modelos {
+                border: 1px dashed red;
+                margin-bottom: 30px;
+                height: 70vh;
+                width: 300px;
+            }
+        }
+    }
+}
 
 
 

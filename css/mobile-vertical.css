@@ -144,6 +144,9 @@ body {
   margin: 0;
 }
 
+.amedida-fluid-2 {
+  margin-top: 20px;
+}
 .amedida-fluid-2 .amedida-container-2 .amedida-row-2 {
   display: flex;
   flex-direction: row;
@@ -154,6 +157,24 @@ body {
   margin: 0;
   width: auto;
   font-size: 1.2rem;
+}
+
+.reeles-fluid {
+  border: 1px dashed black;
+  margin-top: 50px;
+}
+.reeles-fluid .reeles-container .reeles-row {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reeles-fluid .reeles-container .reeles-row .reeles-row_modelos {
+  border: 1px dashed red;
+  margin-bottom: 30px;
+  height: 70vh;
+  width: 300px;
 }
 
 .footer-fluid {
