@@ -22,6 +22,18 @@
     }
 
     /* ----------------------------------------------------- */
+    /*        BANNER INICIAL SUPERIOR */
+    /* ----------------------------------------------------- */
+    .amedida-fluid .amedida-container .amedida-row .amedida-row_lat {
+        width: 32%;
+    }
+    .amedida-fluid .amedida-container .amedida-row .amedida-row_centro {
+        width: 36%;
+    }
+
+
+
+    /* ----------------------------------------------------- */
     /* ----FOOTER */
     /* ----------------------------------------------------- */
     .footer-fluid .footer-container .footer-row figure {

@@ -109,8 +109,39 @@ body {
 }
 
 .amedida-fluid {
-  border: 1px dashed black;
-  height: 180px;
+  height: 80px;
+  padding: 0;
+}
+.amedida-fluid .amedida-container {
+  height: 100%;
+  padding: 0;
+}
+.amedida-fluid .amedida-container .amedida-row {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.amedida-fluid .amedida-container .amedida-row .amedida-row_lat {
+  border-bottom: 2px solid #525252;
+  height: 50%;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+.amedida-fluid .amedida-container .amedida-row .amedida-row_centro {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.amedida-fluid .amedida-container .amedida-row .amedida-row_centro h2 {
+  text-align: center;
+  margin: 0;
 }
 
 .footer-fluid {
