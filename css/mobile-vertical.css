@@ -108,6 +108,11 @@ body {
   color: #525252;
 }
 
+.amedida-fluid {
+  border: 1px dashed black;
+  height: 180px;
+}
+
 .footer-fluid {
   height: 100vh;
   background-color: #12254e;
