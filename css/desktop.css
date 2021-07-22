@@ -31,7 +31,17 @@
         width: 36%;
     }
 
-
+    /* ----------------------------------------------------- */
+    /* -------MODELOS DE REELS*/
+    /* ----------------------------------------------------- */
+    .reeles-fluid .reeles-container .reeles-row {
+        flex-direction: row;
+    }
+    .reeles-fluid .reeles-container .reeles-row .reeles-row_modelos {
+        height: 70vh;
+        width: 20vw;
+        margin: 0px 10px 50px;
+    }
 
     /* ----------------------------------------------------- */
     /* ----FOOTER */
