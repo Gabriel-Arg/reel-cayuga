@@ -193,6 +193,29 @@ body {
     }
 }
 
+.amedida-fluid-2 {
+    // border: 1px dashed black;
+
+    .amedida-container-2 {
+        // border: 1px dashed gray;
+
+        .amedida-row-2 {
+            // border: 1px dashed red;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin: 0;
+                width: auto;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
 
 
 
