@@ -98,6 +98,42 @@ body {
 }
 
 // -----------------------------------------------------
+//        FOOTER
+// -----------------------------------------------------
+.header-fluid {
+    border: 1px dashed black;
+    height: 100vh;
+
+    .header-container {
+        // border: 1px dashed gray;
+        height: 100%;
+
+        .header-row {
+            border: 1px dashed blue;
+            height: 100%;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .header-row_lat {
+                border: 1px dashed red;
+            }
+
+            .header-row_izq {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+// -----------------------------------------------------
 //        BOTON DE CONTACTO
 // -----------------------------------------------------
 .btn-contacto {
