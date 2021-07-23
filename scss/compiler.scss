@@ -223,6 +223,7 @@ body {
 .reeles-fluid {
     // border: 1px dashed black;
     margin-top: 50px;
+    margin-bottom: 50px;
 
     .reeles-container {
         // border: 1px dashed gray;
@@ -237,7 +238,7 @@ body {
 
             .reeles-row_modelos {
                 // border: 1px dashed red;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
                 height: 70vh;
                 width: 80vw;
 
@@ -255,13 +256,34 @@ body {
                     }
                 }
 
+                #img-pescador {
+                    width: 100px;
+                }
+                #estrellas {
+                    // border: 1px dashed red;
+                    width: 150px;
+                    margin: 10px 0px 30px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
                 h2 {
                     // border: 1px dashed green;
                 }
 
+                #nombre-pescador {
+                    font-size: 1.3rem;
+                }
+
                 p {
                     // border: 1px dashed green;
-                    // text-align: center;
+                    text-align: center;
+                }
+                #testimonio {
+                    text-align: justify;
+                    font-size: 0.8rem;
                 }
 
                 button {
