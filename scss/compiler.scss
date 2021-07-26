@@ -101,7 +101,7 @@ body {
 //        HEADER
 // -----------------------------------------------------
 .header-fluid {
-    border: 1px dashed black;
+    // border: 1px dashed black;
     height: 100vh;
 
     .header-container {
@@ -109,7 +109,7 @@ body {
         height: 100%;
 
         .header-row {
-            border: 1px dashed blue;
+            // border: 1px dashed blue;
             height: 100%;
 
             position: relative;
@@ -119,7 +119,9 @@ body {
             align-items: center;
 
             .header-row_lat {
-                border: 1px dashed red;
+                // border: 1px dashed red;
+
+                color: $color-blanco;
 
                 display: flex;
                 flex-direction: column;
@@ -129,10 +131,25 @@ body {
 
             .header-row_izq {
 
+                h2 {
+                    font-weight: 400;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-family: $fuente-subtitulos;
+                }
+
                 button {
-                    border: 2px solid $color-gris-oscuro;
-                    background-color: none;
+                    border: 2px solid $color-blanco;
+                    background: none;
                     padding: 10px;
+                    margin: 30px 0px 0px;
+
+                    a {
+                        color: $color-blanco;
+                        font-weight: 400;
+                    }
 
                     a:hover {
                         color: $color-amarillo;
@@ -156,6 +173,14 @@ body {
     }
 }
 
+// -----EFECTO PARALAX-----------------
+.paralax1 {
+    background: fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+#paralax1 {
+    background-image: url("/img/header-background.jpeg");
+}
 
 // -----------------------------------------------------
 //        BOTON DE CONTACTO

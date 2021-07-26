@@ -81,14 +81,12 @@ body {
 }
 
 .header-fluid {
-  border: 1px dashed black;
   height: 100vh;
 }
 .header-fluid .header-container {
   height: 100%;
 }
 .header-fluid .header-container .header-row {
-  border: 1px dashed blue;
   height: 100%;
   position: relative;
   display: flex;
@@ -97,16 +95,28 @@ body {
   align-items: center;
 }
 .header-fluid .header-container .header-row .header-row_lat {
-  border: 1px dashed red;
+  color: #F9F9F9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.header-fluid .header-container .header-row .header-row_izq h2 {
+  font-weight: 400;
+}
+.header-fluid .header-container .header-row .header-row_izq p {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
 .header-fluid .header-container .header-row .header-row_izq button {
-  border: 2px solid #525252;
-  background-color: none;
+  border: 2px solid #F9F9F9;
+  background: none;
   padding: 10px;
+  margin: 30px 0px 0px;
+}
+.header-fluid .header-container .header-row .header-row_izq button a {
+  color: #F9F9F9;
+  font-weight: 400;
 }
 .header-fluid .header-container .header-row .header-row_izq button a:hover {
   color: #fbd100;
@@ -119,6 +129,15 @@ body {
 }
 .header-fluid .header-container .header-row .header-row_der figure img {
   width: 100%;
+}
+
+.paralax1 {
+  background: fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#paralax1 {
+  background-image: url("/img/header-background.jpeg");
 }
 
 .btn-contacto {
