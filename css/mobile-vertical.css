@@ -93,17 +93,32 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .header-fluid .header-container .header-row .header-row_lat {
   border: 1px dashed red;
-}
-.header-fluid .header-container .header-row .header-row_izq {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.header-fluid .header-container .header-row .header-row_izq button {
+  border: 2px solid #525252;
+  background-color: none;
+  padding: 10px;
+}
+.header-fluid .header-container .header-row .header-row_izq button a:hover {
+  color: #fbd100;
+}
+.header-fluid .header-container .header-row .header-row_der {
+  width: 80vw;
+}
+.header-fluid .header-container .header-row .header-row_der figure {
+  width: 100%;
+}
+.header-fluid .header-container .header-row .header-row_der figure img {
+  width: 100%;
 }
 
 .btn-contacto {

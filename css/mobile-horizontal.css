@@ -13,6 +13,20 @@
     }
 
     /* ----------------------------------------------------- */
+    /* ----HEADER */
+    /* ----------------------------------------------------- */
+    .header-fluid .header-container .header-row {
+        flex-direction: row;
+    }
+    .header-fluid .header-container .header-row .header-row_lat {
+        width: 50%;
+        align-items: flex-start;
+}
+    .header-fluid .header-container .header-row .header-row_der {
+        width: 30vw;
+    }
+
+    /* ----------------------------------------------------- */
     /* ----MODELOS DE REELS  */
     /* ----------------------------------------------------- */
     .reeles-fluid .reeles-container .reeles-row .reeles-row_modelos {
