@@ -177,7 +177,7 @@ body {
 
 // -----EFECTO PARALAX-----------------
 .paralax1 {
-    background: rgba(0, 0, 0, 0.5) fixed no-repeat 50% 50%;
+    background: rgb(0, 0, 0) fixed no-repeat 50% 50%;
     background-size: cover;
 }
 #paralax1 {
@@ -197,6 +197,11 @@ body {
     top: 0;
     left: 0;
 }
+
+// -----------------------------------------------------
+//        
+// -----------------------------------------------------
+
 
 // -----------------------------------------------------
 //        BOTON DE CONTACTO
