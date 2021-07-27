@@ -134,16 +134,16 @@ body {
 }
 
 .paralax1 {
-  background: rebeccapurple fixed no-repeat 50% 50%;
+  background: rgba(0, 0, 0, 0.5) fixed no-repeat 50% 50%;
   background-size: cover;
 }
 
 #paralax1 {
-  background-image: url("/img/header-background.jpeg");
+  background-image: url("../img/header-background.jpeg");
 }
 
 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
   padding: 0;
   margin: 0;
   height: 100%;
