@@ -187,7 +187,7 @@ body {
 // -----OVERLAY------------------------
 .overlay {
     // border: 1px solid cyan;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.7));
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0,0,0,1));
     padding: 0;
     margin: 0;
     height: 100%;
@@ -199,8 +199,75 @@ body {
 }
 
 // -----------------------------------------------------
-//        
+//        RESISTENTE SECCIÓN
 // -----------------------------------------------------
+.resistente-fluid {
+    // border: 1px dashed black;
+    background-image: url(../img/background-resistente.png);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    position: relative;
+
+    .resistente-container {
+        // border: 1px dashed gray;
+        height: 100%;
+
+        .resistente-row {
+            // border: 1px dashed blue;
+            height: 100%;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .resistente-row_lat {
+                // border: 1px dashed red;
+
+                color: $color-blanco;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .resistente-row_izq {
+                // border: 1px dashed red;
+                width: 80vw;
+
+                figure {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .resistente-row_der {
+                h2 {
+                    font-weight: bold;
+                    font-size: 2.5rem;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-family: $fuente-subtitulos;
+                    line-height: 1.4;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
+
+
+
 
 
 // -----------------------------------------------------

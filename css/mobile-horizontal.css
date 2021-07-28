@@ -21,8 +21,22 @@
     .header-fluid .header-container .header-row .header-row_lat {
         width: 50%;
         align-items: flex-start;
-}
+    }
     .header-fluid .header-container .header-row .header-row_der {
+        width: 30vw;
+    }
+
+    /* ----------------------------------------------------- */
+    /* ----RESISTENTE SECCIÓN */
+    /* ----------------------------------------------------- */
+    .resistente-fluid .resistente-container .resistente-row {
+        flex-direction: row;
+    }
+    .resistente-fluid .resistente-container .resistente-row .resistente-row_lat {
+        width: 50%;
+        align-items: flex-start;
+    }
+    .resistente-fluid .resistente-container .resistente-row .resistente-row_izq {
         width: 30vw;
     }
 
