@@ -41,6 +41,22 @@
     }
 
     /* ----------------------------------------------------- */
+    /* ----VERSATIL SECCIÓN */
+    /* ----------------------------------------------------- */
+    .versatil-fluid .versatil-container .versatil-row {
+        flex-direction: row;
+    }
+    .versatil-fluid .versatil-container .versatil-row .versatil-row_lat {
+        width: 50%;
+        align-items: flex-start;
+    }
+    .versatil-fluid .versatil-container .versatil-row .versatil-row_izq {
+        width: 30vw;
+    }
+
+    
+
+    /* ----------------------------------------------------- */
     /* ----MODELOS DE REELS  */
     /* ----------------------------------------------------- */
     .reeles-fluid .reeles-container .reeles-row .reeles-row_modelos {
