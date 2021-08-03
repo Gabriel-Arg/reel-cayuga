@@ -369,10 +369,6 @@ body {
     left: 0;
 }
 
-
-
-
-
 // -----------------------------------------------------
 //        BOTON DE CONTACTO
 // -----------------------------------------------------
@@ -393,6 +389,81 @@ body {
         }
     }
 }
+
+// -----------------------------------------------------
+//        COMPRAR SECCIÓN
+// -----------------------------------------------------
+.comprar-fluid {
+    // border: 1px dotted black;
+    height: auto;
+
+    .comprar-container {
+        // border: 1px dotted gray;
+        height: auto;
+
+        .comprar-row {
+            border: 1px dotted blue;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .comprar-row_lat {
+                border: 1px dotted orangered;
+                height: 100vh;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .comprar-row_der {
+                h2 {
+                    font-size: 2.7rem;
+                    color: $color-negro;
+                    margin-bottom: 50px;
+                }
+
+                p {
+                    text-align: center;
+                    padding: 0px 25px;
+                    margin-bottom: 50px;
+                }
+
+                button {
+                    border: 2px solid $color-gris-oscuro;
+                    width: 200px;
+                    
+                    background: none;
+                    padding: 10px;
+                    margin: 30px 0px 0px;
+
+                    a {
+                        color: $color-gris-oscuro;
+                        font-weight: 400;
+                    }
+
+                    a:hover {
+                        color: $color-amarillo;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 // -----------------------------------------------------
 //        EN CONSTRUCCIÓN

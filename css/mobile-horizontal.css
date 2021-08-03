@@ -57,6 +57,12 @@
         text-align: end;
     }
     
+    /* ----------------------------------------------------- */
+    /* ----COMPRAR SECCIÓN  */
+    /* ----------------------------------------------------- */
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_lat {
+        height: auto;
+    }
 
     /* ----------------------------------------------------- */
     /* ----MODELOS DE REELS  */

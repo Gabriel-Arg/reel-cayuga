@@ -32,6 +32,32 @@
     }
 
     /* ----------------------------------------------------- */
+    /* -------COMPRAR SECCIÓN */
+    /* ----------------------------------------------------- */
+    .comprar-fluid .comprar-container .comprar-row {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_lat {
+        height: 90%;
+        width: 45%;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_der {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_der h2 {
+        margin-bottom: 20px;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_der p {
+        text-align: start;
+        padding: 0px;
+    }
+
+    /* ----------------------------------------------------- */
     /* -------MODELOS DE REELS*/
     /* ----------------------------------------------------- */
     .reeles-fluid .reeles-container .reeles-row {
