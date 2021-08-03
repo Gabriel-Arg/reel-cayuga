@@ -44,16 +44,18 @@
     /* ----VERSATIL SECCIÓN */
     /* ----------------------------------------------------- */
     .versatil-fluid .versatil-container .versatil-row {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
     .versatil-fluid .versatil-container .versatil-row .versatil-row_lat {
         width: 50%;
-        align-items: flex-start;
+        align-items: flex-end;
     }
     .versatil-fluid .versatil-container .versatil-row .versatil-row_izq {
         width: 30vw;
     }
-
+    .versatil-fluid .versatil-container .versatil-row .versatil-row_der p {
+        text-align: end;
+    }
     
 
     /* ----------------------------------------------------- */
