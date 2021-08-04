@@ -306,7 +306,6 @@ body {
   align-items: center;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_lat {
-  border: 1px dotted orangered;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -317,10 +316,12 @@ body {
   font-size: 2.7rem;
   color: #000000;
   margin-bottom: 50px;
+  padding: 0px 20px;
+  text-align: center;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_der p {
   text-align: justify;
-  padding: 0px 25px;
+  padding: 0px 35px;
   margin-bottom: 50px;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_der button {
@@ -338,12 +339,11 @@ body {
   color: #fbd100;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq {
-  height: 90vh;
+  height: 80vh;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider {
-  border: 1px dotted blue;
   width: 90%;
-  height: 60vh;
+  height: 65vh;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -352,6 +352,7 @@ body {
   position: relative;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li {
+  background-color: #F9F9F9;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -363,6 +364,7 @@ body {
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li img {
   width: 100%;
   object-fit: contain;
+  padding-top: 80px;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li:first-child {
   opacity: 1;
@@ -371,7 +373,6 @@ body {
   opacity: 1;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_menú-slider {
-  border: 1px dotted crimson;
   width: 90%;
   margin: 0;
   padding: 0;
@@ -386,6 +387,7 @@ body {
   list-style: none;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_menú-slider li a {
   width: 100%;

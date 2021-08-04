@@ -411,7 +411,7 @@ body {
             align-items: center;
 
             .comprar-row_lat {
-                border: 1px dotted orangered;
+                // border: 1px dotted orangered;
                 height: 100vh;
 
                 display: flex;
@@ -426,11 +426,13 @@ body {
                     font-size: 2.7rem;
                     color: $color-negro;
                     margin-bottom: 50px;
+                    padding: 0px 20px;
+                    text-align: center;
                 }
 
                 p {
                     text-align: justify;
-                    padding: 0px 25px;
+                    padding: 0px 35px;
                     margin-bottom: 50px;
                 }
 
@@ -456,14 +458,14 @@ body {
             // ---SLIDER CON IMAGENES DEL REEL------------
             .comprar-row_izq {
                 // background-color: rgba(255, 166, 0, 0.501);
-                height: 90vh;
+                height: 80vh;
 
                 // ELEMENTO "ul" DE LISTA -------------
                 .comprar-row_izq_slider {
-                    border: 1px dotted blue;
+                    // border: 1px dotted blue;
                     // background-color: rgba(0, 255, 255, 0.494);
                     width: 90%;
-                    height: 60vh;
+                    height: 65vh;
                     padding: 0;
 
                     display: flex;
@@ -473,6 +475,7 @@ body {
                     position: relative;
 
                     li {
+                        background-color:$color-blanco;
                         width: 100%;
                         margin: 0;
                         padding: 0;
@@ -487,6 +490,7 @@ body {
                         img {
                             width: 100%;
                             object-fit: contain;
+                            padding-top: 80px;
                         }
                     }
 
@@ -502,7 +506,7 @@ body {
 
                 // Botones del menú slider-------------
                 .comprar-row_izq_menú-slider {
-                    border: 1px dotted crimson;
+                    // border: 1px dotted crimson;
                     width: 90%;
                     margin: 0;
                     padding: 0;
@@ -518,6 +522,7 @@ body {
                         list-style: none;
                         width: 40px;
                         height: 40px;
+                        cursor: pointer;
 
                         a {
                             width: 100%;

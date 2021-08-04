@@ -34,8 +34,32 @@
     /* ----------------------------------------------------- */
     /* -------COMPRAR SECCIÓN */
     /* ----------------------------------------------------- */
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_lat {
+        height: 80vh;
+        width: 48%;
+    }
+    .comprar-fluid {
+        height: 80vh;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_der h2 {
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_der p {
+        padding: 0px 15px;
+        margin: 0px 0px 50px 20px;
+        font-size: 1.1rem;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_izq {
+        height: auto;
+    }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li img {
+        width: 450px;
+    }
+
+
     .comprar-fluid .comprar-container .comprar-row {
-        height: 100vh;
+        height: 80vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
