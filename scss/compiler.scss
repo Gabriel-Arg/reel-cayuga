@@ -402,7 +402,7 @@ body {
         height: auto;
 
         .comprar-row {
-            border: 1px dotted blue;
+            // border: 1px dotted blue;
             height: auto;
 
             display: flex;
@@ -420,6 +420,7 @@ body {
                 align-items: center;
             }
 
+            // ---INFORMACION Y BOTON DE COMPRAR---------
             .comprar-row_der {
                 h2 {
                     font-size: 2.7rem;
@@ -428,7 +429,7 @@ body {
                 }
 
                 p {
-                    text-align: center;
+                    text-align: justify;
                     padding: 0px 25px;
                     margin-bottom: 50px;
                 }
@@ -443,11 +444,88 @@ body {
 
                     a {
                         color: $color-gris-oscuro;
-                        font-weight: 400;
+                        font-weight: 600;
                     }
 
                     a:hover {
                         color: $color-amarillo;
+                    }
+                }
+            }
+
+            // ---SLIDER CON IMAGENES DEL REEL------------
+            .comprar-row_izq {
+                // background-color: rgba(255, 166, 0, 0.501);
+                height: 90vh;
+
+                // ELEMENTO "ul" DE LISTA -------------
+                .comprar-row_izq_slider {
+                    border: 1px dotted blue;
+                    // background-color: rgba(0, 255, 255, 0.494);
+                    width: 90%;
+                    height: 60vh;
+                    padding: 0;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+
+                    li {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        
+                        // Pone a las img una encima de la otra
+                        position: absolute;
+                        // Oculta las img
+                        opacity: 0;
+                        transition: opacity 0.5s;
+
+                        img {
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+
+                    // Muestra la primera img de la lista
+                    li:first-child {
+                        opacity:1;
+                    }
+                    // Mostrará el resto de las img al hacer clic
+                    li:target {
+                        opacity: 1;
+                    }
+                }
+
+                // Botones del menú slider-------------
+                .comprar-row_izq_menú-slider {
+                    border: 1px dotted crimson;
+                    width: 90%;
+                    margin: 0;
+                    padding: 0;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    li {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        width: 40px;
+                        height: 40px;
+
+                        a {
+                            width: 100%;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }
