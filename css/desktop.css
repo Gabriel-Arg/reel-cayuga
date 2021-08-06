@@ -53,6 +53,9 @@
     .comprar-fluid .comprar-container .comprar-row .comprar-row_izq {
         height: auto;
     }
+    .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider {
+        margin-bottom: 50px;
+    }
     .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li img {
         width: 450px;
     }

@@ -480,6 +480,11 @@ body {
                         margin: 0;
                         padding: 0;
                         list-style: none;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
                         
                         // Pone a las img una encima de la otra
                         position: absolute;
@@ -537,15 +542,6 @@ body {
         }
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 // -----------------------------------------------------
