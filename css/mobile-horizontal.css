@@ -63,9 +63,6 @@
     .comprar-fluid {
         margin: 50px 0px;
     }
-    .comprar-fluid .comprar-container .comprar-row .comprar-row_lat {
-        height: auto;
-    }
     .comprar-fluid .comprar-container .comprar-row {
         flex-direction: row;
         justify-content: center;

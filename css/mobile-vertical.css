@@ -329,7 +329,7 @@ body {
   width: 200px;
   background: none;
   padding: 10px;
-  margin: 30px 0px 0px;
+  margin: 30px 0px 0px 20px;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_der button a {
   color: #525252;
@@ -342,6 +342,7 @@ body {
   height: 80vh;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider {
+  border-top: 2px solid #525252;
   width: 90%;
   height: 65vh;
   padding: 0;
@@ -386,11 +387,13 @@ body {
   align-items: center;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_menú-slider li {
+  border: 1px solid #b8b8b8;
+  border-radius: 4px;
   margin: 0;
-  padding: 0;
+  padding: 8px;
   list-style: none;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   cursor: pointer;
 }
 .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_menú-slider li a {
