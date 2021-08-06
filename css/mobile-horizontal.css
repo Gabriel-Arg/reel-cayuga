@@ -87,6 +87,7 @@
     .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider {
         width: 100%;
         height: 100%;
+        border: none;
     }
     .comprar-fluid .comprar-container .comprar-row .comprar-row_izq .comprar-row_izq_slider li img {
         padding-top: 50px;
