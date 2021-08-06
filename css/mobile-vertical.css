@@ -475,12 +475,12 @@ body {
   align-items: center;
 }
 .reeles-fluid .reeles-container .reeles-row .reeles-row_modelos {
-  margin-bottom: 10px;
-  height: 70vh;
+  margin-bottom: 50px;
+  height: auto;
   width: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .reeles-fluid .reeles-container .reeles-row .reeles-row_modelos figure {

@@ -543,7 +543,6 @@ body {
     }
 }
 
-
 // -----------------------------------------------------
 //        EN CONSTRUCCIÓN
 // -----------------------------------------------------
@@ -664,13 +663,13 @@ body {
 
             .reeles-row_modelos {
                 // border: 1px dashed red;
-                margin-bottom: 10px;
-                height: 70vh;
+                margin-bottom: 50px;
+                height: auto;
                 width: 80vw;
 
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: start;
                 align-items: center;
 
                 figure {
@@ -724,9 +723,6 @@ body {
         }
     }
 }
-
-
-
 
 // -----------------------------------------------------
 //        FOOTER
